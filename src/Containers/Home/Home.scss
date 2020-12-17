@@ -1,0 +1,40 @@
+.Home {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+  background-color: aliceblue;
+}
+h3 {
+  width: 80%;
+  text-align: left;
+  margin: auto;
+}
+.toolbar {
+  margin: auto;
+  width: 80%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  height: 100%;
+  justify-content: space-evenly;
+  background-color: #1867;
+}
+.InputElement {
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: white;
+  font: inherit;
+  padding: 6px 10px;
+  display: block;
+  width: 50%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.InputElement:focus {
+  outline: none;
+}

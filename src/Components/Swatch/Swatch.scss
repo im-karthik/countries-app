@@ -1,0 +1,40 @@
+.Swatch {
+  width: calc(100% / 4);
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  margin: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.card {
+  z-index: 20;
+  height: 100%;
+  width: 100%;
+}
+.Head {
+  display: flex;
+  text-align: left;
+  img {
+    border: 2px solid grey;
+  }
+}
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.Info {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.Population {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.name-capital-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.5rem;
+}
